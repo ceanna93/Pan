@@ -15,6 +15,10 @@
 		CD1093691E935DB8006CE9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1093671E935DB8006CE9A2 /* LaunchScreen.storyboard */; };
 		CD1093741E935DB8006CE9A2 /* PanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1093731E935DB8006CE9A2 /* PanTests.m */; };
 		CD10937F1E935DB8006CE9A2 /* PanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10937E1E935DB8006CE9A2 /* PanUITests.m */; };
+		CD1093911E9376E1006CE9A2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1093901E9376E1006CE9A2 /* MobileCoreServices.framework */; };
+		CD1093931E9376F9006CE9A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1093921E9376F9006CE9A2 /* CoreGraphics.framework */; };
+		CD1093951E937700006CE9A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1093941E937700006CE9A2 /* UIKit.framework */; };
+		CD1093971E937708006CE9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1093961E937708006CE9A2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		CD10937A1E935DB8006CE9A2 /* PanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD10937E1E935DB8006CE9A2 /* PanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanUITests.m; sourceTree = "<group>"; };
 		CD1093801E935DB8006CE9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1093901E9376E1006CE9A2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CD1093921E9376F9006CE9A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD1093941E937700006CE9A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD1093961E937708006CE9A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1093971E937708006CE9A2 /* Foundation.framework in Frameworks */,
+				CD1093951E937700006CE9A2 /* UIKit.framework in Frameworks */,
+				CD1093931E9376F9006CE9A2 /* CoreGraphics.framework in Frameworks */,
+				CD1093911E9376E1006CE9A2 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,7 @@
 				CD1093721E935DB8006CE9A2 /* PanTests */,
 				CD10937D1E935DB8006CE9A2 /* PanUITests */,
 				CD1093571E935DB8006CE9A2 /* Products */,
+				CD10938F1E9376E1006CE9A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +151,17 @@
 				CD1093801E935DB8006CE9A2 /* Info.plist */,
 			);
 			path = PanUITests;
+			sourceTree = "<group>";
+		};
+		CD10938F1E9376E1006CE9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1093961E937708006CE9A2 /* Foundation.framework */,
+				CD1093941E937700006CE9A2 /* UIKit.framework */,
+				CD1093921E9376F9006CE9A2 /* CoreGraphics.framework */,
+				CD1093901E9376E1006CE9A2 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +231,7 @@
 				TargetAttributes = {
 					CD1093551E935DB7006CE9A2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P7S7MRR68W;
 						ProvisioningStyle = Automatic;
 					};
 					CD10936E1E935DB8006CE9A2 = {
@@ -422,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7S7MRR68W;
 				INFOPLIST_FILE = Pan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Pan;
@@ -433,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7S7MRR68W;
 				INFOPLIST_FILE = Pan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.Pan;
@@ -505,6 +532,7 @@
 				CD1093851E935DB8006CE9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD1093861E935DB8006CE9A2 /* Build configuration list for PBXNativeTarget "PanTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +541,7 @@
 				CD1093881E935DB8006CE9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD1093891E935DB8006CE9A2 /* Build configuration list for PBXNativeTarget "PanUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +550,7 @@
 				CD10938B1E935DB8006CE9A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
